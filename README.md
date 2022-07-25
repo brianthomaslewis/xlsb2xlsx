@@ -1,5 +1,7 @@
 # [xlsb2xlsx](https://github.com/brianthomaslewis/xlsb2xlsx)
 
+```pip install xlsb2xlsx```
+
 ## Purpose
 An alternative to `soffice` that specifically converts `.xlsb` files to `.xlsx` files. 
 
