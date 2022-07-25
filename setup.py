@@ -6,6 +6,6 @@ setup(
     description="Convert .xlsb files to .xlsx",
     author="Brian Lewis",
     packages=["xlsb2xlsx"],
-    python_requires=">=3.9",
-    install_requires=["aspose-cells"],
+    python_requires=">=3.7",
+    install_requires=["aspose-cells", "tqdm"],
 )
