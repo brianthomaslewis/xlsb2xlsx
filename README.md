@@ -9,15 +9,15 @@ An alternative to `soffice` that specifically converts `.xlsb` files to `.xlsx` 
 
 To convert all `.xlsb` files in a directory, run:
 
-```python -m xlsb2xlsx /filepath```
+```python -m xlsb2xlsx /directory_path```
 
 To convert all `.xlsb` files in a directory *recursively*, run:
 
-```python -m xlsb2xlsx /filepath --recursive```
+```python -m xlsb2xlsx /directory_path --recursive```
 
 OR
 
-```python -m xlsb2xlsx /filepath -r```
+```python -m xlsb2xlsx /directory_path -r```
 
 The `--recursive` flag specifies whether files in nested directories are also converted.
 
